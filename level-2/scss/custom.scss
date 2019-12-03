@@ -1,0 +1,170 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+body {
+    color: $blue;
+    background: #f0f0f0;
+}
+
+.left-col{
+    padding: 0;
+    max-width: 570px;
+}
+
+.right-col{
+    padding: 0;
+    background: white;
+    text-align: left;
+    letter-spacing: 0;
+    color: #121212;
+    opacity: 1;
+}
+
+.right-col h1{
+    font-weight: bold;
+    margin: 0 80px;
+    padding-top: 50px;
+    font-size: 33px;
+}
+
+.right-col p{
+    margin: 0 80px;
+    padding-top: 25px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.button:focus{
+    outline: 0;
+}
+
+.button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #E4C1AE;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 80px;
+    font-size: 15px;
+    width: 115px;
+    padding: 11px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px){
+
+    .right-col h1{
+        margin: 0 53px;
+        padding-top: 30px;
+        font-size: 27px;
+    }
+
+    .right-col p{
+        margin: 0 53px;
+        padding-top: 15px;
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .button{
+        margin: 0 53px;
+        font-size: 14px;
+        width: 115px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 992px){
+
+    .right-col h1{
+        margin: 0 80px;
+        padding-top: 50px;
+        font-size: 33px;
+    }
+
+    .right-col p{
+        margin: 0 80px;
+        padding-top: 25px;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .button{
+        margin: 0 80px;
+        font-size: 15px;
+        width: 115px;
+        padding: 11px;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .picture{
+        height: 408px;
+    }
+    .right-col h1{
+        margin: 0 110px;
+        padding-top: 86px;
+        font-size: 42px;
+    }
+
+    .right-col p{
+        margin: 0 110px;
+        padding-top: 43px;
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+
+    .button{
+        margin: 0 110px;
+        font-size: 16px;
+        width: 135px;
+        padding: 12px;
+    }
+}
+
+
